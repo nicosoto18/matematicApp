@@ -1,0 +1,127 @@
+.unionCircle1{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    background-color:rgba(255, 0, 0, 0.5);
+}
+
+.unionCircle2{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.intersectionCircle1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    border: 1px solid rgb(77, 77, 77);
+  }
+  
+  .intersectionCircle2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    border: 1px solid rgb(77, 77, 77);
+  }
+  
+  .intersectionCenter {
+    width: 39px;
+    height: 71px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1/2;
+    background-color: rgba(0, 255, 0, 0.4); /* color para resaltar la intersección */
+    z-index: 2;
+  }
+
+
+  .subtractionCircle1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 1px solid rgb(77, 77, 77);
+  }
+  
+  .subtractionCircle2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    border: 1px solid rgb(77, 77, 77);
+  }
+
+  .simetricDiferenceCircle1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    border: 1px solid rgb(77, 77, 77);
+    background-color:rgba(255, 0, 0, 0.5);
+  }
+  
+  .simetricDiferenceCircle2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    border: 1px solid rgb(77, 77, 77);
+    background-color: rgba(0, 0, 255, 0.5);
+  }
+
+  .simetricDiferenceCircle3 {
+    width: 40px;
+    height: 73px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1/2;
+    z-index: 2;
+    background-color: #f3f4f6;
+    border: 1px solid rgb(77, 77, 77);
+
+  }
+
+
+  .complementCircle1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    border: 1px solid rgb(77, 77, 77);
+    background-color: #f3f4f6;
+  }
+  
+  .complementCircle2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    border: 1px solid rgb(77, 77, 77);
+    background-color: #f3f4f6;
+  }
+  
+  .complementUniverse {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border: 1px solid rgb(77, 77, 77);
+    margin: 0 auto;
+    background-color: rgba(0, 0, 255, 0.5);
+  }
