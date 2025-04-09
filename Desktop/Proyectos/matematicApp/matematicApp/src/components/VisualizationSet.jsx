@@ -1,8 +1,6 @@
 import { UnionGraphic, IntersectionGraphic, SubtractionGraphic, SimetricDiferenceGraphic, ComplementGraphic } from "./graphics/graphics";
 
 const VisualizationSet = ({ result, operation }) => {
-
-    console.log(result)
     
     let iconOperation = ""; 
 

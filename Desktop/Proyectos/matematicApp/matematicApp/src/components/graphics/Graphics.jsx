@@ -19,7 +19,7 @@ export const IntersectionGraphic = ()=>{
             <section className="flex items-center justify-center mx-auto relative">
                 <div className={style.intersectionCircle1}></div>
                 <div className={style.intersectionCircle2}></div>
-                <div class={style.intersectionCenter}></div>
+                <div className={style.intersectionCenter}></div>
             </section>
         </>
 

@@ -80,43 +80,45 @@ function App() {
   return (
     <>
       <h2>Calculadora de Conjuntos</h2>
-      <div className="bg-gray-100 text-left w-[45%] mx-auto my-6">
+      
+      <div className="bg-gray-100 text-left mx-auto my-6 w-full md:w-[70%] lg:w-[45%]">
         <form className="p-3">
           <section className="mt-3">
-            <div className="flex">
+            <div className="xl:flex">
               {/* Conjunto A */}
-              <div className="my-2 flex items-center w-1/2 mr-auto">
-                <label>
+              <div className="my-2 xl:w-1/2 mr-auto">  
+                <div className='flex items-center justify-center'>
                   <h4>A = {"{"}</h4>
-                </label>
-                <input
-                  type="text"
-                  name="setA"
-                  onChange={handleChange}
-                  value={sets.setA}
-                />
-                <p>{"}"}</p>
+                  <input
+                    type="text"
+                    name="setA"
+                    onChange={handleChange}
+                    value={sets.setA}
+                  />
+                  <p>{"}"}</p>
+
+                </div>
               </div>
 
               {/* Conjunto B */}
               {preOperation !== "complemento" && (
-                <div className="my-2 flex items-center w-1/2 ml-auto">
-                  <label>
+                <div className="my-2 xl:w-1/2 ml-auto">
+                  <div className='flex items-center justify-center'>
                     <h4>B = {"{"}</h4>
-                  </label>
-                  <input
-                    type="text"
-                    name="setB"
-                    onChange={handleChange}
-                    value={sets.setB}
-                  />
-                  <p>{"}"}</p>
+                    <input
+                      type="text"
+                      name="setB"
+                      onChange={handleChange}
+                      value={sets.setB}
+                      />
+                    <p>{"}"}</p>
+                    </div>
                 </div>
               )}
 
               {/* Conjunto U */}
               {preOperation === "complemento" && (
-                <div className="my-2 flex items-center w-1/2 ml-auto">
+                <div className="my-2 flex justify-center items-center xl:w-1/2 ml-auto">
                   <label>
                     <h4>U = {"{"}</h4>
                   </label>
