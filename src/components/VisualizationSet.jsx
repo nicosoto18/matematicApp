@@ -1,4 +1,4 @@
-import { UnionGraphic, IntersectionGraphic, SubtractionGraphic, SimetricDiferenceGraphic, ComplementGraphic } from "./graphics/graphics";
+import { UnionGraphic, IntersectionGraphic, SubtractionGraphic, SimetricDiferenceGraphic, ComplementGraphic } from "./graphics/Graphics";
 
 const VisualizationSet = ({ result, operation }) => {
     
