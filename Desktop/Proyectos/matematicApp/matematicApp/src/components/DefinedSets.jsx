@@ -1,6 +1,0 @@
-const DefinedSets = ()=>{
-    return(
-        <>
-        HOLA</>
-    )
-}
