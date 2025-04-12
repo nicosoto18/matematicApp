@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import VisualizationSet from './components/visualizationSet.jsx'
+import VisualizationSet from './components/VisualizationSet.jsx'
 import { union, intersection, difference, symmetricDifference } from 'set-operations';
 
 function App() {
